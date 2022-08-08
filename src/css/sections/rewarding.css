@@ -1,0 +1,323 @@
+.rewarding {
+    background-color: #F6F6F6;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-bottom: 223px;
+}
+
+.rewarding__wrapper {
+    width: 100%;
+}
+
+.rewarding__title {
+    font-weight: 700;
+    font-size: 38px;
+    letter-spacing: -0.01em;
+    color: #202020;
+    margin: 0 0 53px;
+}
+
+.rewarding__items {
+    margin-bottom: 30px;
+}
+
+.rewarding__item {
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 53px;
+    border-top: 1px solid #E4E4E4;
+}
+
+.rewarding__item:last-child {
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.rewarding__itemHeading {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 53px;
+}
+
+.rewarding__itemHeadingRight {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.rewarding__itemNumber {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #202020;
+    margin-right: 20px;
+    position: relative;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewarding__itemNumber::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -2px;
+    width: 42px;
+    height: 42px;
+    background: conic-gradient(from 180deg at 50% 50%, #000000 -0.17deg, #999A9A 22.95deg, #000000 92.32deg, #FFFFFF 168.75deg, #000000 216.92deg, #A2A2A2 289.01deg, #000000 359.83deg, #999A9A 382.95deg);
+    background-blend-mode: difference;
+    opacity: 0.09;
+    border-radius: 40px;
+}
+
+.rewarding__itemTitle {
+    font-weight: 700;
+    font-size: 28px;
+    color: #202020;
+    margin: 0;
+}
+
+.rewarding__itemOpen {
+    flex-shrink: 0;
+    margin-left: auto;
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: #000000;
+    position: relative;
+}
+
+.rewarding__itemOpen::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    transform: rotate(90deg);
+    background-color: #000000;
+
+    transition: transform 0.35s ease;
+}
+
+.rewarding__itemHeading--active .rewarding__itemOpen::after {
+    transform: rotate(0);
+}
+
+.rewarding__itemContent {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    overflow: hidden;
+    transition: height 0.35s ease-in-out;
+}
+
+.rewarding__itemContent--active {
+    display: flex;
+}
+
+.rewarding__itemContentItem {
+    width: calc(33% - 27px);
+    height: 100%;
+}
+
+.rewarding__itemContentItem--single {
+    width: 100%;
+}
+
+.rewarding__itemContentPlace {
+    display: inline-block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    color: #202020;
+    text-align: center;
+
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.rewarding__itemContentCard .photoCard__img {
+    height: 457px;
+}
+
+.rewarding__itemContentCard .photoCard__img img {
+    height: 100%;
+}
+
+.rewarding__itemContentItem--single .photoCard__img {
+    height: 493px;
+}
+
+.rewarding__itemContentItem--single .photoCard__img img {
+    object-fit: cover;
+}
+
+.rewarding__info {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #202020;
+    width: 75%;
+}
+
+@media screen and (max-width: 1020px) {
+    .rewarding {
+        padding-top: 48px;
+        padding-bottom: 47px;
+        margin-bottom: 120px;
+    }
+
+    .rewarding__title {
+        font-size: 30px;
+        margin: 0 0 40px;
+    }
+
+    .rewarding__items {
+        margin-bottom: 20px;
+    }
+
+    .rewarding__item {
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+
+    .rewarding__itemHeading {
+        margin-bottom: 30px;
+    }
+
+    .rewarding__itemTitle {
+        font-size: 20px;
+    }
+
+    .rewarding__itemOpen {
+        width: 23px;
+        height: 2px;
+        border-radius: 2px;
+    }
+
+    .rewarding__itemOpen::after {
+        width: 23px;
+        height: 2px;
+        border-radius: 2px;
+    }
+
+    .rewarding__itemContent--active {
+        margin-bottom: 30px;
+    }
+
+    .rewarding__itemContentItem {
+        width: calc(33% - 10px);
+    }
+
+    .rewarding__itemContentItem--single {
+        width: 100%;
+    }
+
+    .rewarding__itemContentPlace {
+        font-size: 14px;
+
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+    }
+
+    .rewarding__itemContentCard .photoCard__img {
+        height: 245px;
+    }
+
+    .rewarding__itemContentItem--single .photoCard__img {
+        height: 294px;
+    }
+
+    .rewarding__info {
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width: 630px) {
+    .rewarding {
+        padding-top: 40px;
+        padding-bottom: 30px;
+        margin-bottom: 90px;
+    }
+
+    .rewarding__title {
+        font-size: 20px;
+        margin: 0 0 27px;
+    }
+
+    .rewarding__itemHeading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    .rewarding__itemHeadingRight {
+        margin-top: 15px;
+    }
+
+    .rewarding__itemTitle {
+        font-size: 14px;
+        line-height: 1.25;
+        margin-right: 30px;
+    }
+
+    .rewarding__itemOpen {
+        width: 20px;
+    }
+
+    .rewarding__itemOpen::after {
+        width: 20px;
+    }
+
+    .rewarding__itemContent {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .rewarding__itemContent--active {
+        margin-bottom: 30px;
+        display: flex;
+    }
+
+    .rewarding__itemContentItem {
+        width: 100%;
+    }
+
+    .rewarding__itemContentItem:not(:last-child) {
+        margin-bottom: 60px;
+    }
+
+    .rewarding__itemContentItem--single {
+        width: 100%;
+    }
+
+    .rewarding__itemContentPlace {
+        font-size: 14px;
+        text-align: start;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+
+    .rewarding__itemContentCard .photoCard__img {
+        height: 280px;
+    }
+
+    .rewarding__itemContentItem--single .photoCard__img {
+        height: 280px;
+    }
+
+    .rewarding__info {
+        font-size: 14px;
+        width: 100%;
+    }
+}

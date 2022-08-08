@@ -1,0 +1,206 @@
+.scrollBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.scrollBar--justifyStart {
+    justify-content: flex-start;
+}
+
+.scrollBar__counter {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    text-align: right;
+    color: #C0C0C0;
+
+    flex-shrink: 0;
+}
+
+.scrollBar__counter span:first-child {
+    color: #202020;
+}
+
+.scrollBar__progressBar {
+    width: 100%;
+    min-width: 100px;
+    max-width: 572px;
+    height: 2px;
+    background-color: #E5E5E5;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    position: relative;
+}
+
+.scrollBar__progressBar--small {
+    max-width: 270px;
+}
+
+
+.scrollBar__progressBarCondition {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10%;
+    height: 2px;
+    background-color: #202020;
+}
+
+.scrollBar__arrows {
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    width: 111px;
+}
+
+.scrollBar__arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 48px;
+    height: 48px;
+    background-color: #F6F6F6;
+    border-radius: 35px;
+
+    position: relative;
+}
+
+.scrollBar__arrow::after {
+    content: '';
+    position: absolute;
+
+    background-image: linear-gradient(#202020, #202020);
+    width: 0;
+    height: 0;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-radius: 35px;
+    transition: width 200ms ease, height 200ms ease;
+}
+
+.scrollBar__arrow:hover::after {
+    width: 100%;
+    height: 100%;
+}
+
+.scrollBar__arrow--44 {
+    width: 44px;
+    height: 44px;
+}
+
+.scrollBar__arrow.swiper-button-disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.scrollBar__arrowIcon {
+    margin-left: -1px;
+    width: 8px;
+    height: 14px;
+    stroke: #202020;
+
+    transition: filter 200ms ease;
+    z-index: 1;
+}
+
+.scrollBar__arrowIcon--right {
+    margin-left: 1px;
+}
+
+.scrollBar__arrow:hover .scrollBar__arrowIcon {
+    filter: invert(1);
+}
+
+.scrollBar__arrowIcon--right {
+    transform: scale(-1);
+}
+
+
+@media screen and (max-width: 1020px) {
+    .scrollBar__progressBar {
+        max-width: 508px;
+    }
+
+    .scrollBar__arrows {
+        width: 87px;
+
+    }
+
+    .scrollBar__arrow {
+        width: 36px;
+        height: 36px;
+    }
+
+    .scrollBar__arrowIcon {
+        width: 8px;
+        height: 14px;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .scrollBar--counterIn {
+        width: 100%;
+        position: relative;
+    }
+
+    .scrollBar--counterIn .scrollBar__counter {
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-6px);
+    }
+
+    .scrollBar--counterIn .scrollBar__arrows {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        bottom: 100%;
+        transform: translateY(-50%);
+    }
+
+    .scrollBar--counterIn .scrollBar__progressBar {
+        margin-top: 5px;
+    }
+
+    .scrollBar--counterIn .scrollBar__arrow {
+        width: 36px;
+        height: 36px;
+    }
+
+    .scrollBar__progressBar {
+        position: relative;
+    }
+
+    .scrollBar__counter {
+        font-size: 14px;
+
+        position: absolute;
+        top: -32px;
+        left: 0;
+    }
+
+    .scrollBar__progressBar {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .scrollBar__arrows {
+        width: 85px;
+
+        position: absolute;
+        right: 0;
+        top: -32px;
+        transform: translateY(-50%);
+    }
+
+    .scrollBar__arrow {
+        width: 35px;
+        height: 35px;
+    }
+}

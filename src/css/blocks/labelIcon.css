@@ -1,0 +1,15 @@
+.labelIcon {
+    width: 67px;
+    height: 67px;
+    background-color: #F6F6F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.labelIcon__icon {
+    width: 33px;
+    height: 33px;
+}

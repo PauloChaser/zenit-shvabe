@@ -1,0 +1,154 @@
+.input {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: transparent;
+
+    padding: 15px 0;
+
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+}
+
+.input--wide {
+    width: 100%;
+}
+
+.input--account {
+    width: 100%;
+    padding: 17px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background-color: #F6F6F6;
+
+    color: #333333;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.09;
+}
+
+.input--account::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.input--personalData {
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEuNzc1MzkgMTQuNTAwMUg0LjYwMzcyTDE0Ljk3NDcgNC4xMjkxMUwxMi4xNDYxIDEuMzAwNzhMMS43NzUzOSAxMS42NzE4VjE0LjUwMDFaIiBzdHJva2U9IiMyMDIwMjAiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTkuMzE4MzYgNC4xMjg5MUwxMi4xNDY3IDYuOTU3NTciIHN0cm9rZT0iIzIwMjAyMCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=");
+    background-repeat: no-repeat;
+    background-position: 98% center;
+}
+
+.input--login {
+    border-bottom: 1px solid #E5E5E5;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 97px;
+}
+
+.input--login::placeholder {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.input--file {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    overflow: hidden;
+    width: 0.4px;
+    height: 0.4px;
+}
+
+input {
+    outline: none;
+}
+
+.input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.input[type=time] {
+    -webkit-appearance: none;
+}
+
+.input--high {
+    padding: 20px 0;
+}
+
+.input label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: #2B2B2B;
+}
+
+.input[data-valid="false"] {
+    border-color: red !important;
+
+    transition: border 200ms ease;
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.input[type=date]::-webkit-calendar-picker-indicator,
+.input[type=date]::-webkit-datetime-edit,
+.input[type=date]::-webkit-datetime-edit-fields-wrapper,
+.input[type=date]::-webkit-datetime-edit-text,
+.input[type=date]::-webkit-datetime-edit-month-field,
+.input[type=date]::-webkit-datetime-edit-day-field,
+.input[type=date]::-webkit-datetime-edit-year-field,
+.input[type=date]::-webkit-inner-spin-button,
+.input[type=date]::-webkit-calendar-picker-indicator {
+    -webkit-appearance: none;
+    opacity: 0;
+}
+
+.input--choose {
+
+}
+
+.input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media screen and (max-width: 1020px) {
+    .input {
+        font-size: 14px;
+    }
+
+    .input label {
+        font-size: 14px;
+    }
+
+    .input--account {
+        padding-top: 16px;
+        padding-bottom: 13px;
+        padding-right: 20px;
+        font-size: 12px;
+    }
+
+    .input--account::placeholder {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+
+}

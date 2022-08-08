@@ -1,0 +1,174 @@
+.contacts {
+    margin-top: 85px;
+    margin-bottom: 90px;
+}
+
+.contacts__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contacts__title {
+    margin-bottom: 95px;
+}
+
+.contacts__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+    width: 100%;
+
+    grid-template-areas:
+'callCentre service genDir vk'
+'salesDep special shvabe tg';
+
+}
+
+.contacts__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts__item--callCentre {
+    grid-area: callCentre;
+}
+
+.contacts__item--salesDep {
+    grid-area: salesDep;
+}
+
+.contacts__item--ServiceCentre {
+    grid-area: service;
+}
+
+.contacts__item--special {
+    grid-area: special;
+}
+
+.contacts__item--genDir {
+    grid-area: genDir;
+}
+
+.contacts__item--shvabe {
+    grid-area: shvabe;
+}
+
+.contacts__item--vk {
+    grid-area: vk;
+}
+
+.contacts__item--tg {
+    grid-area: tg;
+}
+
+.contacts__item--shoppingCentre {
+    grid-column: span 2;
+}
+
+.contacts__itemName,
+.contacts__itemAddress {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+
+    color: #C0C0C0;
+    margin-top: 10px;
+}
+
+.contacts__itemAddress {
+    color: #2B2B2B;
+}
+
+.contacts__itemLink {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    color: #2B2B2B;
+    text-decoration: none;
+}
+
+.contacts__itemLink:not(:first-child) {
+    margin-top: 10px;
+}
+
+
+.contacts__itemLink br {
+    display: none;
+}
+
+.contacts__itemLink:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1120px) {
+    .contacts__itemLink br {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .contacts {
+        margin-top: 50px;
+        margin-bottom: 65px;
+    }
+
+    .contacts__title {
+        margin-bottom: 65px;
+    }
+
+    .contacts__items {
+        display: initial;
+
+        columns: 3;
+        width: 100%;
+    }
+
+    .contacts__item {
+        page-break-inside: avoid; /* Firefox */
+        break-inside: avoid-column;
+
+        margin-bottom: 50px;
+    }
+
+    .contacts__itemAddress,
+    .contacts__itemName {
+        font-size: 14px;
+    }
+
+
+    .contacts__itemLink {
+        font-size: 14px;
+    }
+
+    .contacts__itemLink br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 681px) {
+    .contacts {
+        margin-top: 25px;
+        margin-bottom: 55px;
+    }
+
+    .contacts__title {
+        margin-bottom: 45px;
+    }
+
+    .contacts__items {
+        row-gap: 0;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts__item {
+        margin-bottom: 30px;
+    }
+
+    .contacts__item--ServiceCentre {
+        margin-bottom: 30px;
+    }
+}

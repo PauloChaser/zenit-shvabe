@@ -1,0 +1,136 @@
+.checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox--account {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox__element {
+    position: relative;
+    visibility: hidden;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    align-self: flex-start;
+
+    transition: opacity 200ms ease;
+}
+
+.checkbox__element:hover {
+    opacity: 0.7;
+}
+
+.checkbox__element::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    width: 18px;
+    height: 18px;
+
+    box-sizing: border-box;
+    border: 1px solid #0F0F0F;
+
+    visibility: visible;
+}
+
+.checkbox__element::after {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    height: 10px;
+    width: 13px;
+
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iOSIgdmlld0JveD0iMCAwIDEyIDkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik00LjUgOC4xMjVMMC43NSA0LjQwNUwxLjk0MjUgMy4yNUw0LjUgNS43NjI1TDEwLjA1NzUgMC4yNUwxMS4yNSAxLjQzNUw0LjUgOC4xMjVaIiBmaWxsPSIjMEYwRjBGIi8+Cjwvc3ZnPgo=");
+    background-repeat: no-repeat;
+    opacity: 0;
+    visibility: visible;
+
+    transition: opacity 200ms ease;
+}
+
+.checkbox__element:checked::after {
+    opacity: 1;
+}
+
+.checkbox__label {
+    margin-left: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    color: #C4C4C4;
+
+    align-self: flex-end;
+    cursor: pointer;
+    transition: color 200ms ease;
+}
+
+.checkbox__personalData {
+    text-decoration: underline;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    color: #0F0F0F;
+    transition: box-shadow 200ms ease;
+}
+
+.checkbox__personalData:hover {
+    box-shadow: 2px 6px 10px #00000026;
+}
+
+.checkbox__element[data-valid="false"]::before {
+    border-color: red;
+}
+
+.checkbox--account .checkbox__element {
+    width: 23px;
+    height: 23px;
+}
+
+.checkbox--account .checkbox__element::before {
+    width: 23px;
+    height: 23px;
+
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+
+.checkbox--account .checkbox__element::after {
+    height: 15px;
+    width: 15px;
+    left: 4px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxNCAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuMTU0NzcgMTAuNjQ4OEw0LjA2ODc1IDEwLjU2MjdMMy43NTU5NCAxMC4yNDk4TDIuNzU1IDkuMjQ4NDJMMC43NjEwNDEgNy4yNTM4M0MwLjY4NjgzMiA3LjE3MTU1IDAuNjQ2NTQ4IDcuMDY0MDggMC42NDg1MDYgNi45NTMxMkMwLjY1MDUwNiA2LjgzOTc3IDAuNjk2NDIxIDYuNzMxNjMgMC43NzY1NzggNi42NTE0N0MwLjg1NjczNyA2LjU3MTMyIDAuOTY0ODc5IDYuNTI1NCAxLjA3ODIyIDYuNTIzNEMxLjE4OTE5IDYuNTIxNDQgMS4yOTY2NiA2LjU2MTczIDEuMzc4OTUgNi42MzU5NUw0LjE0MjgzIDkuMzk4NThMNC40OTYxOCA5Ljc1MTc4TDQuODQ5NjYgOS4zOTg3TDEyLjYyODQgMS42Mjg3TDEyLjYzNDcgMS42MjIzN0wxMi42NDA5IDEuNjE1ODFDMTIuNjgwOSAxLjU3MjgyIDEyLjcyOTIgMS41MzgzNSAxMi43ODI5IDEuNTE0NDRDMTIuODM2NSAxLjQ5MDUzIDEyLjg5NDUgMS40Nzc2NyAxMi45NTMyIDEuNDc2NjNDMTMuMDEyIDEuNDc1NTkgMTMuMDcwMyAxLjQ4NjQgMTMuMTI0OCAxLjUwODRDMTMuMTc5MyAxLjUzMDQxIDEzLjIyODggMS41NjMxNiAxMy4yNzAzIDEuNjA0N0MxMy4zMTE4IDEuNjQ2MjUgMTMuMzQ0NiAxLjY5NTc0IDEzLjM2NjYgMS43NTAyMUMxMy4zODg2IDEuODA0NjggMTMuMzk5NCAxLjg2MzAzIDEzLjM5ODQgMS45MjE3OEMxMy4zOTczIDEuOTgwNTIgMTMuMzg0NSAyLjAzODQ2IDEzLjM2MDYgMi4wOTIxMkMxMy4zMzY3IDIuMTQ1NzkgMTMuMzAyMiAyLjE5NDA5IDEzLjI1OTIgMi4yMzQxNEwxMy4yNTI4IDIuMjQwMTJMMTMuMjQ2NiAyLjI0NjMzTDEzLjI0NTUgMi4yNDc0MUwxMy4yNDUzIDIuMjQ3NThMNC44MDI5OCAxMC42Nzg3TDQuODAyOTcgMTAuNjc4N0M0LjcyMDk0IDEwLjc2MDYgNC42MDk3NCAxMC44MDY2IDQuNDkzOCAxMC44MDY2QzQuMzc4IDEwLjgwNjYgNC4yNjY5MyAxMC43NjA3IDQuMTg0OTIgMTAuNjc5QzQuMTg0OTIgMTAuNjc5IDQuMTg0OTEgMTAuNjc4OSA0LjE4NDkxIDEwLjY3ODlDNC4xODQ5IDEwLjY3ODkgNC4xODQ4OSAxMC42Nzg5IDQuMTg0ODggMTAuNjc4OUM0LjE4NDg2IDEwLjY3ODkgNC4xODQ4NCAxMC42Nzg5IDQuMTg0ODIgMTAuNjc4OUM0LjE4NDc2IDEwLjY3ODggNC4xODQ3MSAxMC42Nzg3IDQuMTg0NjUgMTAuNjc4N0M0LjE4NDY1IDEwLjY3ODcgNC4xODQ2NCAxMC42Nzg3IDQuMTg0NjQgMTAuNjc4N0w0LjE4NDQ1IDEwLjY3ODVMNC4xODMgMTAuNjc3TDQuMTc3MjYgMTAuNjcxM0w0LjE1NDc3IDEwLjY0ODhaIiBmaWxsPSJibGFjayIgc3Ryb2tlPSJibGFjayIvPgo8L3N2Zz4K");
+}
+
+.checkbox--account .checkbox__label {
+    line-height: 1.2;
+    color: #202020;
+}
+
+
+
+@media screen and (max-width: 1020px) {
+    .checkbox__label {
+        font-size: 14px;
+    }
+
+    .checkbox__personalData {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .checkbox__label,
+    .checkbox__personalData {
+        line-height: 1.4;
+    }
+}

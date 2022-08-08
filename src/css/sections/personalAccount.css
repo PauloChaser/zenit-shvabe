@@ -1,0 +1,58 @@
+.personalAccount {
+    margin-top: 55px;
+    margin-bottom: 190px;
+}
+
+.personalAccount__wrapper {
+    width: 100%;
+    display: flex;
+
+}
+
+.personalAccount__personalCard {
+    max-width: 30%;
+    position: sticky;
+    left: 0;
+    top: 20px;
+}
+
+.personalAccount__content {
+    max-width: 70%;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 1020px) {
+    .personalAccount {
+        margin-top: 50px;
+        margin-bottom: 155px;
+    }
+
+    .personalAccount__content {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .personalAccount {
+        margin-top: 30px;
+        margin-bottom: 110px;
+    }
+
+    .personalAccount__wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .personalAccount__personalCard {
+        position: initial;
+        max-width: none;
+
+    }
+
+    .personalAccount__content {
+        max-width: none;
+        margin-left: 0;
+        margin-top: 45px;
+    }
+}

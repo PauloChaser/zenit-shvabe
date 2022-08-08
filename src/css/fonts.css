@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('/fonts/DrukTextWideCyr-Bold.eot');
+    src: url('/fonts/DrukTextWideCyr-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukTextWideCyr-Bold.woff2') format('woff2'),
+    url('/fonts/DrukTextWideCyr-Bold.woff') format('woff'),
+    url('/fonts/DrukTextWideCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('/fonts/DrukTextWideCyr-Heavy.eot');
+    src: url('/fonts/DrukTextWideCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukTextWideCyr-Heavy.woff2') format('woff2'),
+    url('/fonts/DrukTextWideCyr-Heavy.woff') format('woff'),
+    url('/fonts/DrukTextWideCyr-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('/fonts/DrukTextWideCyr-BoldItalic.eot');
+    src: url('/fonts/DrukTextWideCyr-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukTextWideCyr-BoldItalic.woff2') format('woff2'),
+    url('/fonts/DrukTextWideCyr-BoldItalic.woff') format('woff'),
+    url('/fonts/DrukTextWideCyr-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('/fonts/DrukTextWideCyr-HeavyItalic.eot');
+    src: url('/fonts/DrukTextWideCyr-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukTextWideCyr-HeavyItalic.woff2') format('woff2'),
+    url('/fonts/DrukTextWideCyr-HeavyItalic.woff') format('woff'),
+    url('/fonts/DrukTextWideCyr-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('/fonts/DrukTextWideCyr-SuperItalic.eot');
+    src: url('/fonts/DrukTextWideCyr-SuperItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukTextWideCyr-SuperItalic.woff2') format('woff2'),
+    url('/fonts/DrukTextWideCyr-SuperItalic.woff') format('woff'),
+    url('/fonts/DrukTextWideCyr-SuperItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('/fonts/DrukTextWideCyr-Medium.eot');
+    src: url('/fonts/DrukTextWideCyr-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukTextWideCyr-Medium.woff2') format('woff2'),
+    url('/fonts/DrukTextWideCyr-Medium.woff') format('woff'),
+    url('/fonts/DrukTextWideCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('/fonts/DrukTextWideCyr-MediumItalic.eot');
+    src: url('/fonts/DrukTextWideCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukTextWideCyr-MediumItalic.woff2') format('woff2'),
+    url('/fonts/DrukTextWideCyr-MediumItalic.woff') format('woff'),
+    url('/fonts/DrukTextWideCyr-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Text Wide Cyr';
+    src: url('/fonts/DrukTextWideCyr-Super.eot');
+    src: url('/fonts/DrukTextWideCyr-Super.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukTextWideCyr-Super.woff2') format('woff2'),
+    url('/fonts/DrukTextWideCyr-Super.woff') format('woff'),
+    url('/fonts/DrukTextWideCyr-Super.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('/fonts/DrukWideCyr-BoldItalic.eot');
+    src: url('/fonts/DrukWideCyr-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukWideCyr-BoldItalic.woff2') format('woff2'),
+    url('/fonts/DrukWideCyr-BoldItalic.woff') format('woff'),
+    url('/fonts/DrukWideCyr-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('/fonts/DrukWideCyr-Medium.eot');
+    src: url('/fonts/DrukWideCyr-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukWideCyr-Medium.woff2') format('woff2'),
+    url('/fonts/DrukWideCyr-Medium.woff') format('woff'),
+    url('/fonts/DrukWideCyr-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('/fonts/DrukWideCyr-Heavy.eot');
+    src: url('/fonts/DrukWideCyr-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukWideCyr-Heavy.woff2') format('woff2'),
+    url('/fonts/DrukWideCyr-Heavy.woff') format('woff'),
+    url('/fonts/DrukWideCyr-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('/fonts/DrukWideCyr-MediumItalic.eot');
+    src: url('/fonts/DrukWideCyr-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukWideCyr-MediumItalic.woff2') format('woff2'),
+    url('/fonts/DrukWideCyr-MediumItalic.woff') format('woff'),
+    url('/fonts/DrukWideCyr-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('/fonts/DrukWideCyr-Bold.eot');
+    src: url('/fonts/DrukWideCyr-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukWideCyr-Bold.woff2') format('woff2'),
+    url('/fonts/DrukWideCyr-Bold.woff') format('woff'),
+    url('/fonts/DrukWideCyr-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('/fonts/DrukWideCyr-HeavyItalic.eot');
+    src: url('/fonts/DrukWideCyr-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukWideCyr-HeavyItalic.woff2') format('woff2'),
+    url('/fonts/DrukWideCyr-HeavyItalic.woff') format('woff'),
+    url('/fonts/DrukWideCyr-HeavyItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('/fonts/DrukWideCyr-SuperItalic.eot');
+    src: url('/fonts/DrukWideCyr-SuperItalic.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukWideCyr-SuperItalic.woff2') format('woff2'),
+    url('/fonts/DrukWideCyr-SuperItalic.woff') format('woff'),
+    url('/fonts/DrukWideCyr-SuperItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Druk Wide Cyr';
+    src: url('/fonts/DrukWideCyr-Super.eot');
+    src: url('/fonts/DrukWideCyr-Super.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/DrukWideCyr-Super.woff2') format('woff2'),
+    url('/fonts/DrukWideCyr-Super.woff') format('woff'),
+    url('/fonts/DrukWideCyr-Super.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Compressed'), local('Helios-Extra-Compressed'),
+    url('/fonts/HeliosExtraCompressedC.woff2') format('woff2'),
+    url('/fonts/HeliosExtraCompressedC.woff') format('woff'),
+    url('/fonts/HeliosExtraCompressedC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Thin Italic'), local('Helios-Extra-Thin-Italic'),
+    url('/fonts/HeliosExtThinC-Italic.woff2') format('woff2'),
+    url('/fonts/HeliosExtThinC-Italic.woff') format('woff'),
+    url('/fonts/HeliosExtThinC-Italic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Thin'), local('Helios-Extra-Thin'),
+    url('/fonts/HeliosExtThinC.woff2') format('woff2'),
+    url('/fonts/HeliosExtThinC.woff') format('woff'),
+    url('/fonts/HeliosExtThinC.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Light'), local('Helios-Extra-Light'),
+    url('/fonts/HeliosExtLightC.woff2') format('woff2'),
+    url('/fonts/HeliosExtLightC.woff') format('woff'),
+    url('/fonts/HeliosExtLightC.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Light Italic'), local('Helios-Extra-Light-Italic'),
+    url('/fonts/HeliosExtLightC-Italic.woff2') format('woff2'),
+    url('/fonts/HeliosExtLightC-Italic.woff') format('woff'),
+    url('/fonts/HeliosExtLightC-Italic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Regular'), local('Helios-Extra-Regular'),
+    url('/fonts/HeliosExtC.woff2') format('woff2'),
+    url('/fonts/HeliosExtC.woff') format('woff'),
+    url('/fonts/HeliosExtC.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Italic'), local('Helios-Extra-Italic'),
+    url('/fonts/HeliosExtC-Italic.woff2') format('woff2'),
+    url('/fonts/HeliosExtC-Italic.woff') format('woff'),
+    url('/fonts/HeliosExtC-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Bold'), local('Helios-Extra-Bold'),
+    url('/fonts/HeliosExtC-Bold.woff2') format('woff2'),
+    url('/fonts/HeliosExtC-Bold.woff') format('woff'),
+    url('/fonts/HeliosExtC-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Bold Italic'), local('Helios-Extra-Bold-Italic'),
+    url('/fonts/HeliosExtC-BoldItalic.woff2') format('woff2'),
+    url('/fonts/HeliosExtC-BoldItalic.woff') format('woff'),
+    url('/fonts/HeliosExtC-BoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Black'), local('Helios-Extra-Black'),
+    url('/fonts/HeliosExtBlackC.woff2') format('woff2'),
+    url('/fonts/HeliosExtBlackC.woff') format('woff'),
+    url('/fonts/HeliosExtBlackC.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helios';
+    src: local('Helios Extra Black Italic'), local('Helios-Extra-Black-Italic'),
+    url('/fonts/HeliosExtBlackC-Italic.woff2') format('woff2'),
+    url('/fonts/HeliosExtBlackC-Italic.woff') format('woff'),
+    url('/fonts/HeliosExtBlackC-Italic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: local('Helvetica Regular'), local('Helvetica-Regular'),
+    url('/fonts/Helvetica.woff2') format('woff2'),
+    url('/fonts/Helvetica.woff') format('woff'),
+    url('/fonts/Helvetica.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Halvar Breitschrift';
+    src: local('Halvar Breitschrift Rg'), local('Halvar-Breitschrift-Rg'),
+    url('/fonts/HalvarBreit-Rg.woff2') format('woff2'),
+    url('/fonts/HalvarBreit-Rg.woff') format('woff'),
+    url('/fonts/HalvarBreit-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Halvar Breitschrift';
+    src: local('Halvar Breitschrift Md'), local('Halvar-Breitschrift-Md'),
+    url('/fonts/HalvarBreit-Md.woff2') format('woff2'),
+    url('/fonts/HalvarBreit-Md.woff') format('woff'),
+    url('/fonts/HalvarBreit-Md.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Halvar Breitschrift';
+    src: local('Halvar Breitschrift Bd'), local('Halvar-Breitschrift-Bd'),
+    url('/fonts/HalvarBreit-Bd.woff2') format('woff2'),
+    url('/fonts/HalvarBreit-Bd.woff') format('woff'),
+    url('/fonts/HalvarBreit-Bd.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lg';
+    src: url('/fonts/lg.ttf') format('truetype'),
+    url('/fonts/lg.woff') format('woff'),
+    url('/fonts/lg.woff2') format('woff2'),
+    url('/fonts/lg.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

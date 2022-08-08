@@ -1,0 +1,884 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная страница</title>
+</head>
+<body>
+<header class="container header js-header">
+    <div class="container__row">
+        <div class="header__top">
+
+            <div class="header__logo">
+                <a href="/index.html">
+                    <svg class="header__logoIcon">
+                        <use href="./spritemap.svg#icon-logo"/>
+                    </svg>
+                </a>
+                <h3 class="header__logoName">ПАО &laquo;Красногорский <br>завод&nbsp;им. С.А. Зверева&raquo;</h3>
+            </div>
+            <div class="header__languages header__languages--desk">
+                <a href="" class="header__language header__language--active">Ru</a>
+                <a href="" class="header__language">En</a>
+                <a href="" class="header__language">Chn</a>
+            </div>
+            <span class="header__menuButton js-menu-button">Меню</span>
+        </div>
+    </div>
+    <div class="container__separator"></div>
+    <div class="container__row">
+        <div class="header__menu js-header-menu">
+            <nav class="header__menuNav">
+                <ul class="header__menuList">
+                    <li class="header__menuLinkItem js-menu-slide" data-container="menu-col-1">
+                        <a href="#" class="header__menuLink">О&nbsp;компании
+                            <svg class="header__menuLinkArrow">
+                                <use href="./spritemap.svg#icon-menu_arrowDown"/>
+                            </svg>
+                        </a>
+                        <ul class="header__menuSubList header__menuSubList--left header__menuSubList--wide"
+                            id="menu-col-1">
+                            <li class="header__menuSubListItem">
+                                <a href="/about-today.html" class="header__menuSubListLink">
+                                    КМЗ сегодня
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="/about-management.html" class="header__menuSubListLink">
+                                    Руководство
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="/about-history.html" class="header__menuSubListLink">
+                                    История предприятия
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem">
+                                <a href="/about-shareholders.html" class="header__menuSubListLink">
+                                    Акционерам
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem">
+                                <a href="/career.html" class="header__menuSubListLink">
+                                    Карьера
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem header__menuSubListItem--special"></li>
+                        </ul>
+                    </li>
+                    <li class="header__menuLinkItem js-menu-slide" data-container="menu-col-2">
+                        <a href="photo-contest.html" class="header__menuLink">Фотоконкурс</a>
+                    </li>
+                    <li class="header__menuLinkItem js-menu-slide" data-container="menu-col-3">
+                        <a href="#" class="header__menuLink">Интернет&nbsp;&mdash; магазин
+                            <svg class="header__menuLinkArrow">
+                                <use href="./spritemap.svg#icon-menu_arrowDown"/>
+                            </svg>
+                        </a>
+                        <ul class="header__menuSubList" id="menu-col-3">
+                            <li class="header__menuSubListItem">
+                                <a href="https://zenit-medicine.com" class="header__menuSubListLink" target="_blank">
+                                    Медицина
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="https://www.zenit.photo/" class="header__menuSubListLink" target="_blank">
+                                    Фототехника
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="https://zenit-optics.ru" class="header__menuSubListLink" target="_blank">
+                                    Прицельная и&nbsp;наблюдательная техника
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem header__menuSubListItem--special"></li>
+                        </ul>
+                    </li>
+                    <li class="header__menuLinkItem">
+                        <a href="/museum.html" class="header__menuLink">Музей</a>
+                    </li>
+                    <li class="header__menuLinkItem js-menu-slide" data-container="menu-col-4">
+                        <a href="#" class="header__menuLink">Медиа
+                            <svg class="header__menuLinkArrow">
+                                <use href="./spritemap.svg#icon-menu_arrowDown"/>
+                            </svg>
+                        </a>
+                        <ul class="header__menuSubList header__menuSubList--wide" id="menu-col-4">
+                            <li class="header__menuSubListItem">
+                                <a href="/media-news.html" class="header__menuSubListLink">
+                                    Новости
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="/media-photo-video.html" class="header__menuSubListLink">
+                                    Фото и&nbsp;видео
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem header__menuSubListItem--special"></li>
+                        </ul>
+                    </li>
+                    <li class="header__menuLinkItem">
+                        <a href="/contacts.html" class="header__menuLink">Контакты</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header__menuBottom">
+                <div class="header__menuSocials">
+
+                    <a class="header__menuSocialsLink" href="https://vk.com/kmz_zenit">
+                        <svg class="header__menuSocialsIcon">
+                            <use href="./spritemap.svg#icon-headerSocial_vk"/>
+                        </svg>
+                        ВКонтакте
+                    </a>
+
+                    <a class="header__menuSocialsLink" href="https://t.me/zenitkmz">
+                        <svg class="header__menuSocialsIcon">
+                            <use href="./spritemap.svg#icon-headerSocial_tg"/>
+                        </svg>
+                        t.me/zenitkmz
+                    </a>
+
+                </div>
+
+                <div class="header__languages header__languages--tab">
+                    <a href="" class="header__language header__language--active">Ru</a>
+                    <a href="" class="header__language">En</a>
+                    <a href="" class="header__language">Chn</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container__separator"></div>
+</header>
+
+<section class="container mainBanner">
+    <div class="container__row">
+        <div class="mainBanner__top">
+            <div class="mainBanner__topLeftSide">
+                <div class="mainBanner__topNames js-banner-slider-more">
+                    <h3 class="mainBanner__topName mainBanner__topName--active">Прицел оптический <br>P6X42</h3>
+                    <h3 class="mainBanner__topName">Инфракрасная система измерения температуры IR236</h3>
+                    <h3 class="mainBanner__topName">Фотоаппарат Зенит М</h3>
+                    <h3 class="mainBanner__topName">Читать <br>подробнее</h3>
+                    <h3 class="mainBanner__topName">Читать <br>подробнее</h3>
+                    <h3 class="mainBanner__topName">Читать <br>подробнее</h3>
+                    <h3 class="mainBanner__topName">Читать <br>подробнее</h3>
+                    <h3 class="mainBanner__topName">Читать <br>подробнее</h3>
+                </div>
+                <div class="mainBanner__topButtonPlus">
+                    <a href="#" class="js-banner-slider-link">
+                        <svg class="mainBanner__topButtonPlusIcon">
+                            <use href="./spritemap.svg#icon-mainBanner-open-button"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="mainBanner__topRightSide">
+                <div class="mainBanner__topCategories js-banner-slider-title">
+                    <h3 class="mainBanner__topCategory mainBanner__topCategory--active" data-href="#1">Гражданская
+                        продукция</h3>
+                    <h3 class="mainBanner__topCategory" data-href="#2">Гражданская продукция</h3>
+                    <h3 class="mainBanner__topCategory" data-href="#3">Гражданская продукция</h3>
+                    <h3 class="mainBanner__topCategory" data-href="#4">Открытие в&nbsp;универмаге ГУМ</h3>
+                    <h3 class="mainBanner__topCategory" data-href="#5">Центральное конструкторское бюро</h3>
+                    <h3 class="mainBanner__topCategory" data-href="#6">Запущен собственный ЦОД</h3>
+                    <h3 class="mainBanner__topCategory" data-href="#7">Музей ПАО КМЗ</h3>
+                    <h3 class="mainBanner__topCategory" data-href="#8">Профсоюз на&nbsp;КМЗ</h3>
+                </div>
+                <div class="mainBanner__topSlider">
+                    <div class="scrollBar">
+                        <div class="scrollBar__counter js-banner-slider-counter"></div>
+                        <div class="scrollBar__progressBar scrollBar__progressBar--small js-banner-slider-progressbar">
+
+                        </div>
+                        <div class="scrollBar__arrows">
+                            <div class="scrollBar__arrow scrollBar__arrow--44 js-main-banner js-banner-slider-prev">
+                                <svg class="scrollBar__arrowIcon scrollBar__arrowIcon--left">
+                                    <use href="./spritemap.svg#icon-scrollBar_arrow"/>
+                                </svg>
+                            </div>
+                            <div class="scrollBar__arrow scrollBar__arrow--44 js-banner-slider-next">
+                                <svg class="scrollBar__arrowIcon scrollBar__arrowIcon--right">
+                                    <use href="./spritemap.svg#icon-scrollBar_arrow"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mainBanner__line"></div>
+        </div>
+    </div>
+
+    <div class="container__row container__row--infinity">
+        <div class="mainBanner__content">
+            <div class="mainBanner__contentCircle js-circle-hovered"></div>
+            <div class="mainBanner__contentItems js-banner-slider">
+                <div class="swiper-wrapper">
+
+                    <div class="mainBanner__contentItem mainBanner__contentItem--active  swiper-slide">
+                        <img class="mainBanner__contentItemImg js-img-hover"
+                             src="img/mainBanner-content-opticalSight.png"
+                             srcset="img/mainBanner-content-opticalSight.png 1x,
+                                                                    img/mainBanner-content-opticalSight-retina.png 2x"
+                             alt="Optical sight">
+                        <a href="#" class="mainBanner__mobButtonPlus js-banner-slider-link">
+                            <svg class="mainBanner__mobButtonPlusIcon">
+                                <use href="./spritemap.svg#icon-mainBanner-open-button"/>
+                            </svg>
+
+                        </a>
+                        <div class="mainBanner__contentCircle mainBanner__contentCircle--hidden js-item-hover"></div>
+                    </div>
+
+                    <div class="mainBanner__contentItem mainBanner__contentItem--active swiper-slide">
+                        <img class="mainBanner__contentItemImg mainBanner__contentItemImg--IR236 js-img-hover"
+                             src="img/mainBanner-content-IR236.png"
+                             srcset="img/mainBanner-content-IR236.png 1x,
+                                     img/mainBanner-content-IR236-retina.png 2x"
+                             alt="IR236">
+                        <a href="#" class="mainBanner__mobButtonPlus js-banner-slider-link">
+                            <svg class="mainBanner__mobButtonPlusIcon">
+                                <use href="./spritemap.svg#icon-mainBanner-open-button"/>
+                            </svg>
+                        </a>
+                        <div class="mainBanner__contentCircle mainBanner__contentCircle--hidden js-item-hover"></div>
+                    </div>
+                    <div class="mainBanner__contentItem mainBanner__contentItem--active swiper-slide">
+                        <img class="mainBanner__contentItemImg mainBanner__contentItemImg--zenith js-img-hover"
+                             src="img/mainBanner-content-ZENITH.png"
+                             srcset="img/mainBanner-content-ZENITH.png 1x,
+                                     img/mainBanner-content-ZENITH-retina.png 2x"
+                             alt="Camera Zenith">
+                        <a href="#" class="mainBanner__mobButtonPlus js-banner-slider-link">
+                            <svg class="mainBanner__mobButtonPlusIcon">
+                                <use href="./spritemap.svg#icon-mainBanner-open-button"/>
+                            </svg>
+                        </a>
+                        <div class="mainBanner__contentCircle mainBanner__contentCircle--hidden js-item-hover"></div>
+                    </div>
+
+                    <a href="#" class="mainBanner__contentItem  mainBanner__contentItem--smallMargin swiper-slide">
+                        <div class="mainBanner__contentItemInner">
+                            <div class="mainBanner__contentItemTop mainBanner__contentItemTop--rectangle">
+                                <img class="mainBanner__contentItemImg"
+                                     src="img/mainBanner-content-item-GUM.jpg"
+                                     srcset="img/mainBanner-content-item-GUM.jpg 1x,
+                                                                          img/mainBanner-content-item-GUM-retina.jpg 2x"
+                                     alt="GUM">
+                            </div>
+                            <div class="mainBanner__contentItemBottom">
+                                <div class="mainBanner__contentItemBottomText">
+                                    <h4 class="mainBanner__contentItemBottomTitle">25&nbsp;марта</h4>
+                                    <p class="mainBanner__contentItemBottomDescription">cостоялось открытие флагманского
+                                        магазина ZENIT в&nbsp;универмаге ГУМ</p>
+                                </div>
+                                <svg class="mainBanner__contentItemLogo">
+                                    <use href="./spritemap.svg#icon-mainBanner-content-item-zenit"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="mainBanner__contentItem  mainBanner__contentItem--smallMargin swiper-slide">
+                        <div class="mainBanner__contentItemInner">
+                            <div class="mainBanner__contentItemTop mainBanner__contentItemTop--rectangle">
+                                <img class="mainBanner__contentItemImg"
+                                     src="img/mainBanner-content-item-bureau.jpg"
+                                     srcset="img/mainBanner-content-item-bureau.jpg 1x,
+                                           img/mainBanner-content-item-bureau-retina.jpg 2x"
+                                     alt="GUM">
+                            </div>
+                            <div class="mainBanner__contentItemBottom">
+                                <div class="mainBanner__contentItemBottomText">
+                                    <h4 class="mainBanner__contentItemBottomTitle">10&nbsp;июня 1948&nbsp;г.</h4>
+                                    <p class="mainBanner__contentItemBottomDescription">Создано Центральное
+                                        конструкторское бюро
+                                        Разработка передовых наукоемких оптических
+                                        и&nbsp;оптико-электронных приборов и&nbsp;систем</p>
+                                </div>
+                                <svg class="mainBanner__contentItemLogo">
+                                    <use href="./spritemap.svg#icon-mainBanner-content-item-zenit"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="mainBanner__contentItem  mainBanner__contentItem--smallMargin swiper-slide">
+                        <div class="mainBanner__contentItemInner">
+                            <div class="mainBanner__contentItemTop mainBanner__contentItemTop--rectangle">
+                                <img class="mainBanner__contentItemImg"
+                                     src="img/mainBanner-content-item-COD.jpg"
+                                     srcset="img/mainBanner-content-item-COD.jpg 1x,
+                                           img/mainBanner-content-item-COD-retina.jpg 2x"
+                                     alt="GUM">
+                            </div>
+                            <div class="mainBanner__contentItemBottom">
+                                <div class="mainBanner__contentItemBottomText">
+                                    <h4 class="mainBanner__contentItemBottomTitle">с&nbsp;2021&nbsp;г.</h4>
+                                    <p class="mainBanner__contentItemBottomDescription">На&nbsp;КМЗ запущен собственный ЦОД
+                                        Внедрены системы PLM, ERP и&nbsp;системы управления производством (в&nbsp;т.ч. MES)
+                                    </p>
+                                </div>
+                                <svg class="mainBanner__contentItemLogo">
+                                    <use href="./spritemap.svg#icon-mainBanner-content-item-zenit"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="mainBanner__contentItem  mainBanner__contentItem--smallMargin swiper-slide">
+                        <div class="mainBanner__contentItemInner">
+                            <div class="mainBanner__contentItemTop mainBanner__contentItemTop--rectangle">
+                                <img class="mainBanner__contentItemImg"
+                                     src="img/mainBanner-museum-img.jpg"
+                                     srcset="img/mainBanner-museum-img.jpg 1x,
+                                                        img/mainBanner-museum-img-retina.jpg 2x"
+                                     alt="Museum">
+                            </div>
+                            <div class="mainBanner__contentItemBottom">
+                                <div class="mainBanner__contentItemBottomText mainBanner__contentItemBottomText--extended">
+                                    <h4 class="mainBanner__contentItemBottomTitle">Музей ПАО КМЗ</h4>
+                                    <p class="mainBanner__contentItemBottomDescription mainBanner__contentItemBottomDescription--small">
+                                        Узнай историю оптической
+                                        промышленности и&nbsp;своего города!</p>
+                                    <h3 class="mainBanner__contentItemBottomSubtitle">Записывайся на&nbsp;экскурсию:</h3>
+                                    <div class="mainBanner__contentItemBottomContacts">
+                                        <div class="mainBanner__contentItemBottomContact">
+                                            <span class="mainBanner__contentItemBottomContactTitle">Телефон</span>
+                                            <a href="tel:84955618700"
+                                               class="mainBanner__contentItemBottomContactItem">
+                                                +7(495) 561-87-00</a>
+                                        </div>
+                                        <div class="mainBanner__contentItemBottomContact">
+                                            <span class="mainBanner__contentItemBottomContactTitle">Почта</span>
+                                            <a href="mailto:museum@zenit-kmz.ru"
+                                               class="mainBanner__contentItemBottomContactItem">museum@zenit-kmz.ru</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg class="mainBanner__contentItemLogo mainBanner__contentItemLogo--xl">
+                                    <use href="./spritemap.svg#icon-mainBanner-content-item-zenit-extended"/>
+                                </svg>
+                            </div>
+                            <a href="#" class="mainBanner__contentItemLink"></a>
+                        </div>
+                    </div>
+                    <div class="mainBanner__contentItem  mainBanner__contentItem--smallMargin swiper-slide">
+                        <div class="mainBanner__contentItemInner">
+                            <div class="mainBanner__contentItemTop mainBanner__contentItemTop--rectangle">
+                                <img class="mainBanner__contentItemImg"
+                                     src="img/mainBanner-trade-union-img.jpg"
+                                     srcset="img/mainBanner-trade-union-img.jpg 1x,
+                                                        img/mainBanner-trade-union-img-retina.jpg 2x"
+                                     alt="Museum">
+                            </div>
+                            <div class="mainBanner__contentItemBottom">
+                                <div class="mainBanner__contentItemBottomText mainBanner__contentItemBottomText--extended">
+                                    <h4 class="mainBanner__contentItemBottomTitle">Профсоюз на&nbsp;КМЗ действует с&nbsp;1942
+                                        г.</h4>
+
+                                    <h3 class="mainBanner__contentItemBottomSubtitle">Вступай в&nbsp;Профсоюз КМЗ!</h3>
+                                    <div class="mainBanner__contentItemBottomContacts">
+                                        <div class="mainBanner__contentItemBottomContact">
+                                            <span class="mainBanner__contentItemBottomContactTitle">Телефон</span>
+                                            <div>
+                                                <a href="tel:25-34"
+                                                   class="mainBanner__contentItemBottomContactItem">
+                                                    25-34,</a>
+                                                <a href="tel:27-01"
+                                                   class="mainBanner__contentItemBottomContactItem">
+                                                    27-01</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <svg class="mainBanner__contentItemLogo mainBanner__contentItemLogo--xl">
+                                    <use href="./spritemap.svg#icon-mainBanner-content-item-zenit-extended"/>
+                                </svg>
+                                <a href="#" class="mainBanner__contentItemLink"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!--    бегущая строка-->
+    <div class="mainBanner__ticker">
+        <div class="mainBanner__tickerTextWrapper mainBanner__tickerTextWrapper--top">
+            <span class="mainBanner__tickerText js-ticker-text">Гражданская продукция</span>
+            <span class="mainBanner__tickerText js-ticker-text">Гражданская продукция</span>
+        </div>
+        <div class="mainBanner__tickerSeparator"></div>
+        <div class="mainBanner__tickerTextWrapper mainBanner__tickerTextWrapper--bottom">
+            <span class="mainBanner__tickerText js-ticker-text">Гражданская продукция</span>
+            <span class="mainBanner__tickerText js-ticker-text">Гражданская продукция</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="container">
+    <div class="container__row mainAboutCompany">
+        <div class="mainAboutCompanyTop">
+            <div class="mainAboutCompany__heading">О&nbsp;компании</div>
+            <h3 class="mainAboutCompany__text"> Одно из&nbsp;ведущих предприятий России в&nbsp;области оптического и
+                оптико-электронного приборостроения, обладающее уникальным многолетним опытом</h3>
+        </div>
+
+        <div class="mainAboutCompany__bottom">
+            <div class="mainAboutCompany__description">На&nbsp;протяжении десятилетий обеспечивающее разработку, испытания и
+                серийное
+                производство приборов и&nbsp;систем для различных сфер применения.
+            </div>
+            <div class="mainAboutCompany__linkMore ">
+                <a href="/about-today.html" class="mainAboutCompany__linkButton button button--round "><span>Подробнее</span></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container mainCatalog">
+    <div class="container__row container__row--infinity">
+        <div class="mainCatalog__wrapper">
+
+            <div class="mainCatalog__content">
+                <div class="mainCatalog__contentItems">
+                    <div class="mainCatalog__contentItem mainCatalog__contentItem--civilian">
+                        <a href="#" class="mainCatalog__contentItemLink hoverLines js-hover-lines">
+                            <span data-count="7">Гражданская </span> <br>продукция
+                        </a>
+                    </div>
+                    <div class="mainCatalog__contentItem mainCatalog__contentItem--technics">
+                        <a href="#" class="mainCatalog__contentItemLink hoverLines js-hover-lines">
+                            <span data-count="12">Техника </span> <br>специального <br>назначения
+                        </a>
+                    </div>
+                </div>
+                <div class="mainCatalog__contentImg">
+                    <img class="mainCatalog__contentImgItem"
+                         src="img/mainCatalog-img.jpg"
+                         srcset="img/mainCatalog-img.jpg 1x,
+                            img/mainCatalog-img-retina.jpg 2x"
+                         alt="Museum History Image"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="container mainServices">
+    <div class="container__row">
+        <div class="mainServices__top">
+            <h3 class="mainServices__title">Услуги</h3>
+        </div>
+    </div>
+    <div class="container__row">
+        <div class="mainServices__itemsWrapper">
+            <div class="mainServices__items js-services-slider">
+                <div class="swiper-wrapper">
+                    <a href="#" class="mainServices__item swiper-slide">
+                        <h4 class="mainServices__itemTitle">Промышленный <br>комплекс</h4>
+                        <div class="mainServices__itemImg">
+                            <img src="img/mainServices-img1.png"
+                                 srcset="img/mainServices-img1.png 1x,
+                                         img/mainServices-img1-retina.png 2x"
+                                 alt="Service">
+                        </div>
+                    </a>
+                    <a href="#" class="mainServices__item swiper-slide">
+                        <h4 class="mainServices__itemTitle">Оптическое <br>производство</h4>
+                        <div class="mainServices__itemImg">
+                            <img src="img/mainServices-img2.png"
+                                 srcset="img/mainServices-img2.png 1x,
+                                         img/mainServices-img2-retina.png 2x"
+                                 alt="Service">
+                        </div>
+                    </a>
+                    <a href="#" class="mainServices__item swiper-slide">
+                        <h4 class="mainServices__itemTitle">Механическая <br>обработка</h4>
+                        <div class="mainServices__itemImg">
+                            <img src="img/mainServices-img3.png"
+                                 srcset="img/mainServices-img3.png 1x,
+                                           img/mainServices-img3-retina.png 2x"
+                                 alt="Service">
+                        </div>
+                    </a>
+                    <a href="#" class="mainServices__item swiper-slide">
+                        <h4 class="mainServices__itemTitle">Механическая <br>обработка</h4>
+                        <div class="mainServices__itemImg">
+                            <img src="img/mainServices-img3.png"
+                                 srcset="img/mainServices-img3.png 1x,
+                                           img/mainServices-img3-retina.png 2x"
+                                 alt="Service">
+                        </div>
+                    </a>
+                    <a href="#" class="mainServices__item swiper-slide">
+                        <h4 class="mainServices__itemTitle">Промышленный <br>комплекс</h4>
+                        <div class="mainServices__itemImg">
+                            <img src="img/mainServices-img1.png"
+                                 srcset="img/mainServices-img1.png 1x,
+                                           img/mainServices-img1-retina.png 2x"
+                                 alt="Service">
+                        </div>
+                    </a>
+                    <a href="#" class="mainServices__item swiper-slide">
+                        <h4 class="mainServices__itemTitle">Оптическое <br>производство</h4>
+                        <div class="mainServices__itemImg">
+                            <img src="img/mainServices-img2.png"
+                                 srcset="img/mainServices-img2.png 1x,
+                                           img/mainServices-img2-retina.png 2x"
+                                 alt="Service">
+                        </div>
+                    </a>
+                    <a href="#" class="mainServices__item swiper-slide">
+                        <h4 class="mainServices__itemTitle">Механическая <br>обработка</h4>
+                        <div class="mainServices__itemImg">
+                            <img src="img/mainServices-img3.png"
+                                 srcset="img/mainServices-img3.png 1x,
+                                           img/mainServices-img3-retina.png 2x"
+                                 alt="Service">
+                        </div>
+                    </a>
+                    <a href="#" class="mainServices__item swiper-slide">
+                        <h4 class="mainServices__itemTitle">Механическая <br>обработка</h4>
+                        <div class="mainServices__itemImg">
+                            <img src="img/mainServices-img3.png"
+                                 srcset="img/mainServices-img3.png 1x,
+                                          img/mainServices-img3-retina.png 2x"
+                                 alt="Service">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container__row mainServices__scrollBar">
+        <div class="scrollBar">
+            <div class="scrollBar__counter"><span class="js-services-slider-current">03</span>&nbsp;&mdash; <span
+                    class="js-services-slider-total">12</span></div>
+            <div class="scrollBar__progressBar js-services-slider-scrollbar"></div>
+            <div class="scrollBar__arrows">
+                <div class="scrollBar__arrow js-services-slider-prev">
+                    <svg class="scrollBar__arrowIcon scrollBar__arrowIcon--left">
+                        <use href="./spritemap.svg#icon-scrollBar_arrow"/>
+                    </svg>
+                </div>
+                <div class="scrollBar__arrow scrollBar__arrow--right js-services-slider-next">
+                    <svg class="scrollBar__arrowIcon scrollBar__arrowIcon--right">
+                        <use href="./spritemap.svg#icon-scrollBar_arrow"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container mainMuseum">
+    <div class="container__row">
+        <div class="mainMuseum__wrapper">
+            <div class="mainMuseum__titles">
+                <h2 class="mainMuseum__title">Музей истории </h2>
+                <h3 class="mainMuseum__subtitle">На&nbsp;площади около 500&nbsp;кв.&nbsp;м. <br>разместилось уникальное собрание
+                    экспонатов</h3>
+            </div>
+            <div class="mainMuseum__content">
+                <div class="mainMuseum__contentLeft ">
+                    <div class="mainMuseum__contentLink js-museum-wrapper">
+                        <a href="museum.html" class="mainMuseum__contentLinkText button button--round js-museum-button"><span>Записаться</span></a>
+                    </div>
+                    <p class="mainMuseum__contentDescription">Экспонаты, отражающие историю становления и&nbsp;развития
+                        предприятия, историю рождения и&nbsp;становления города Красногорска, а&nbsp;также частичку истории
+                        развития
+                        оптической промышленности России.</p>
+                </div>
+                <div class="mainMuseum__contentRight">
+                    <img class="mainMuseum__contentImg"
+                         src="img/mainMuseum-img.jpg"
+                         srcset="img/mainMuseum-img.jpg 1x,
+                            img/mainMuseum-img-retina.jpg 2x"
+                         alt="Museum History Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container mainMedia doubleSlider">
+    <div class="container__row">
+        <div class="doubleSlider__top">
+            <h3 class="doubleSlider__title">Медиа</h3>
+            <a href="#" class="doubleSlider__link">Смотреть все</a>
+        </div>
+
+    </div>
+    <div class="container__row doubleSlider__bottom">
+        <div class="doubleSlider__wrapper">
+            <div class="doubleSlider__activeItems js-main-media-big-photos">
+                <div class="swiper-wrapper">
+                    <a href="#" class="doubleSlider__activeItem swiper-slide">
+                        <div class="doubleSlider__activeItemLinkImg">
+                            <img class="doubleSlider__activeItemImg"
+                                 src="img/mainMedia-img2.jpg"
+                                 srcset="img/mainMedia-img2.jpg 1x,
+                                        img/mainMedia-img2-retina.jpg 2x"
+                                 alt="Image">
+                        </div>
+                        <span class="doubleSlider__activeItemDate">22.01.2021</span>
+                        <h3 class="doubleSlider__activeItemCaption hoverLines js-hover-lines">График работы
+                            в&nbsp;новогодние праздники 2022 года</h3>
+                    </a>
+
+                    <a href="#" class="doubleSlider__activeItem swiper-slide">
+                        <div class="doubleSlider__activeItemLinkImg">
+                            <img class="doubleSlider__activeItemImg"
+                                 src="img/mainMedia-img1.jpg"
+                                 srcset="img/mainMedia-img1.jpg 1x,
+                                         img/mainMedia-img1-retina.jpg 2x"
+                                 alt="Image">
+                        </div>
+                        <span class="doubleSlider__activeItemDate">22.01.2021</span>
+                        <h3 class="doubleSlider__activeItemCaption hoverLines js-hover-lines">Увеличение гарантийного срока на
+                            фотообъективы!</h3>
+                    </a>
+
+                    <a href="#" class="doubleSlider__activeItem swiper-slide">
+                        <div class="doubleSlider__activeItemLinkImg">
+                            <img class="doubleSlider__activeItemImg"
+                                 src="img/mainMedia-img3.jpg"
+                                 srcset="img/mainMedia-img3.jpg 1x,
+                                           img/mainMedia-img3-retina.jpg 2x"
+                                 alt="Image">
+                        </div>
+                        <span class="doubleSlider__activeItemDate">22.01.2021</span>
+                        <h3 class="doubleSlider__activeItemCaption hoverLines js-hover-lines">Появилась возможность совершать оплату заказов
+                            PayPal</h3>
+                    </a>
+
+                </div>
+            </div>
+            <div class="doubleSlider__waitingItemsWrapper">
+                <div class="doubleSlider__waitingItems js-main-media-small-photos">
+                    <div class="swiper-wrapper">
+
+                        <a href="#" class="doubleSlider__waitingItem swiper-slide">
+                            <div class="doubleSlider__waitingItemLinkImg">
+                                <img class="doubleSlider__waitingItemImg"
+                                     src="img/mainMedia-img1.jpg"
+                                     srcset="img/mainMedia-img1.jpg 1x,
+                                                img/mainMedia-img1-retina.jpg 2x"
+                                     alt="Image">
+                            </div>
+                            <span class="doubleSlider__waitingItemDate">22.01.2021</span>
+                            <h3 class="doubleSlider__waitingItemCaption hoverLines js-hover-lines">Увеличение гарантийного срока на
+                                фотообъективы!</h3>
+                        </a>
+
+                        <a href="#" class="doubleSlider__waitingItem swiper-slide">
+                            <div class="doubleSlider__waitingItemLinkImg">
+                                <img class="doubleSlider__waitingItemImg"
+                                     src="img/mainMedia-img3.jpg"
+                                     srcset="img/mainMedia-img3.jpg 1x,
+                                                 img/mainMedia-img3-retina.jpg 2x"
+                                     alt="Image">
+                            </div>
+                            <span class="doubleSlider__waitingItemDate">22.01.2021</span>
+                            <h3 class="doubleSlider__waitingItemCaption hoverLines js-hover-lines">Появилась возможность совершать оплату заказов
+                                PayPal</h3>
+                        </a>
+
+                        <a href="#" class="doubleSlider__waitingItem swiper-slide">
+                            <div class="doubleSlider__waitingItemLinkImg">
+                                <img class="doubleSlider__waitingItemImg"
+                                     src="img/mainMedia-img2.jpg"
+                                     srcset="img/mainMedia-img2.jpg 1x,
+                                                img/mainMedia-img2-retina.jpg 2x"
+                                     alt="Image">
+                            </div>
+                            <span class="doubleSlider__waitingItemDate">22.01.2021</span>
+                            <h3 class="doubleSlider__waitingItemCaption hoverLines js-hover-lines">График работы в&nbsp;новогодние праздники 2022
+                                года</h3>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="doubleSlider__scrollBar ">
+                    <div class="scrollBar scrollBar--justifyStart ">
+                        <div class="scrollBar__progressBar js-media-slider-scrollbar">
+                        </div>
+                        <div class="scrollBar__arrows">
+                            <div class="scrollBar__arrow js-main-media-prev">
+                                <svg class="scrollBar__arrowIcon scrollBar__arrowIcon--left">
+                                    <use href="./spritemap.svg#icon-scrollBar_arrow"/>
+                                </svg>
+                            </div>
+                            <div class="scrollBar__arrow scrollBar__arrow--right js-main-media-next">
+                                <svg class="scrollBar__arrowIcon scrollBar__arrowIcon--right">
+                                    <use href="./spritemap.svg#icon-scrollBar_arrow"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- waitingItemsWrapper -->
+        </div>
+
+    </div>
+</section>
+
+<section class="container mainHotLine">
+    <div class="container__row">
+        <div class="mainHotLine__wrapper">
+            <h3 class="mainHotLine__title">&laquo;Горячая линии&raquo; в&nbsp;области противодействия мошенничеству, хищениям
+                <br>и&nbsp;коррупции Государственной корпорации &laquo;Ростех&raquo; </h3>
+            <a href="https://rostec.ru/anticorruption/feedback/" class="mainHotLine__link button button--round" target="_blank">
+                <span>Перейти</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<footer class="container footer">
+    <div class="container__row footer__logos">
+        <div class="footer__logo">
+            <a href="https://shvabe.com">
+                <svg class="footer__logoIcon footer__logoIcon--shvabe">
+                    <use href="./spritemap.svg#icon-shwabeLogo"/>
+                </svg>
+            </a>
+        </div>
+        <div class="footer__logo">
+            <a href="/index.html">
+                <svg class="footer__logoIcon">
+                    <use href="./spritemap.svg#icon-logo"/>
+                </svg>
+            </a>
+            <h3 class="footer__logoName">ПАО &laquo;Красногорский <br>завод&nbsp;им. С.А. Зверева&raquo;</h3>
+        </div>
+    </div>
+
+    <div class="container__row footer__columns">
+        <div class="footer__column footer__column--aboutCompany">
+            <h3 class="footer__columnTitle footer__columnTitle--visibility js-footer-slide"
+                data-container="footer-col-1">О&nbsp;компании
+            </h3>
+            <ul class="footer__links" id="footer-col-1">
+                <li class="footer__link"><a href="/about-today.html">КМЗ сегодня</a></li>
+                <li class="footer__link"><a href="/about-management.html">Руководство</a></li>
+                <li class="footer__link"><a href="/about-history.html">История предприятия</a></li>
+                <li class="footer__link"><a href="/about-shareholders.html">Акционерам</a></li>
+                <li class="footer__link"><a href="/career.html">Карьера </a></li>
+            </ul>
+        </div>
+
+         <div class="footer__column footer__column--photoContest">
+            <ul class="footer__links footer__links--bold footer__links--single">
+                <li class="footer__link"><a href="#" download="">Фотоконкурс</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__column footer__column--media">
+            <h3 class="footer__columnTitle js-footer-slide"
+                data-container="footer-col-3">Медиа
+            </h3>
+            <ul class="footer__links" id="footer-col-3">
+                <li class="footer__link"><a href="/media-news.html">Новости</a></li>
+                <li class="footer__link"><a href="/media-photo-video.html">Фото и&nbsp;видео</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer__column footer__column--social">
+            <h3 class="footer__columnTitle js-footer-slide"
+                data-container="footer-col-4">Соц.Сети
+            </h3>
+            <ul class="footer__links" id="footer-col-4">
+                <li class="footer__link"><a href="https://vk.com/kmz_zenit" target="_blank">
+                    <svg class="footer__linkSocialIcon footer__linkSocialIcon--vk">
+                        <use href="./spritemap.svg#icon-footerSocial_vk"/>
+                    </svg>
+                    ВКонтакте</a>
+                </li>
+                <li class="footer__link"><a href="https://t.me/zenitkmz" target="_blank">
+                    <svg class="footer__linkSocialIcon footer__linkSocialIcon--tg">
+                        <use href="./spritemap.svg#icon-footerSocial_tg"/>
+                    </svg>
+                    t.me/zenitkmz</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__column footer__column--mainPages">
+            <ul class="footer__links footer__links--bold">
+                <li class="footer__link"><a href="https://www.zenit.photo" target="_blank">Интернет-магазин</a></li>
+                <li class="footer__link"><a href="#">Сотрудничество</a></li>
+                <li class="footer__link"><a href="/contacts.html">Контакты</a></li>
+                <li class="footer__link"><a href="/museum.html">Музей</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__column footer__column--contacts">
+            <div class="footer__links footer__links--wide">
+                <div class="footer__link footer__link--alignStart">
+                    <a href="/contacts.html">
+                        <svg class="footer__linkContactsIcon">
+                            <use href="./spritemap.svg#icon-footerContacts_Map"/>
+                        </svg>
+                        ПАО &laquo;Красногорский завод&nbsp;им. С.А. Зверева&raquo; 143403,
+                        Московская область, г.Красногорск, ул. Речная, д.8
+                    </a>
+                </div>
+
+                <div class="footer__linksContact">
+                    <div class="footer__link">
+                        <a href="tel:84955618008">
+                            <svg class="footer__linkContactsIcon">
+                                <use href="./spritemap.svg#icon-footerContacts_tel"/>
+                            </svg>
+                            +7 (495) 561-80-08
+                        </a>
+                    </div>
+                    <div class="footer__link">
+                        <a href="mailto:kmz@zenit-kmz.ru">
+                            <svg class="footer__linkContactsIcon">
+                                <use href="./spritemap.svg#icon-footerContacts_mail"/>
+                            </svg>
+                            kmz@zenit-kmz.ru
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container__row container__row--noRelative">
+        <div class="footer__copyright">
+            <a href="https://finik.org/" class="footer__copyrightText">Сайт сделан в&nbsp;<span>FINIK</span></a>
+        </div>
+    </div>
+</footer>
+
+<section class="modals js-modals">
+
+</section>
+
+
+</body>
+</html>

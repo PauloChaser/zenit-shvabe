@@ -1,0 +1,23 @@
+.photoContestNews {
+    margin-bottom: 190px;
+}
+
+.photoContestNews .doubleSlider__link {
+    display: none;
+}
+
+@media screen and (max-width: 1020px) {
+    .photoContestNews {
+        margin-bottom: 155px;
+    }
+
+    .photoContestNews .doubleSlider__link {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .photoContestNews {
+        margin-bottom: 110px;
+    }
+}

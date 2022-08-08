@@ -1,0 +1,68 @@
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__inputs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form__inputWrapper {
+    margin-bottom: 40px;
+    width: 100%;
+    position: relative;
+}
+
+.form__inputWrapper .input:not(:placeholder-shown) + label,
+.form__inputWrapper .input:focus + label {
+    transform: translateY(-30px);
+    font-size: 14px;
+}
+
+.form__inputWrapper .textarea:not(:placeholder-shown) + label,
+.form__inputWrapper .textarea:focus + label {
+    transform: translateY(-50px);
+    font-size: 14px;
+}
+
+.form__inputWrapper label {
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+
+    transition: all 200ms ease;
+}
+
+.form__inputWrapper .input,
+.form__inputWrapper .textarea {
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.form__button {
+    cursor: pointer;
+}
+
+.form__button .button {
+    margin-top: 40px;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1020px) {
+    .form__button {
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .form__inputWrapper {
+        margin-bottom: 30px;
+    }
+}

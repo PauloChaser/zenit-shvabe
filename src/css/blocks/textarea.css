@@ -1,0 +1,66 @@
+.textarea {
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: transparent;
+
+    padding: 15px 0;
+
+    color: #2B2B2B;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    resize: none;
+}
+
+
+.textarea label {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    color: #2B2B2B;
+}
+
+.textarea--account {
+    padding: 25px;
+    background: #F6F6F6;
+    border-radius: 5px;
+    color: #333333;
+    font-size: 14px;
+    line-height: 1.4;
+    height: 200px;
+}
+
+.textarea--account::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 1020px) {
+    .textarea {
+        font-size: 14px;
+    }
+
+    .textarea label {
+        font-size: 14px;
+    }
+
+
+    .textarea--account {
+        padding: 17px;
+        font-size: 12px;
+        height: 120px;
+    }
+
+    .textarea--account::placeholder {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+
+}

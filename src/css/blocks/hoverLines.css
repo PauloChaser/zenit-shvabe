@@ -1,0 +1,26 @@
+.hoverLines {
+  position: relative;
+}
+
+.hoverLines__line {
+  height: var(--hover_line_height);
+  width: 0;
+  background: var(--hover_line_color);
+  position: absolute;
+  opacity: 0;
+  transform: translateY(-100%);
+
+  transition: width 500ms ease, opacity 200ms ease;
+}
+
+.hoverLines:hover .hoverLines__line {
+  width: 150%;
+  opacity: 1;
+}
+
+.hoverLines__temp {
+  position: fixed;
+  left: -999px;
+  top: -999px;
+  white-space: nowrap;
+}

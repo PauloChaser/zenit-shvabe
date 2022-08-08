@@ -1,0 +1,39 @@
+.contactsMap {
+    margin-bottom: 180px;
+    width: 100%;
+}
+
+.contactsMap__wrapper {
+    width: 100%;
+    height: 600px;
+
+    position: relative;
+}
+
+.contactsMap__wrapper iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height:100%;
+    width:100%;
+}
+
+@media screen and (max-width: 1020px) {
+    .contactsMap {
+        margin-bottom: 130px;
+    }
+
+    .contactsMap__wrapper {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .contactsMap {
+        margin-bottom: 90px;
+    }
+
+    .contactsMap__wrapper {
+        height: 320px;
+    }
+}

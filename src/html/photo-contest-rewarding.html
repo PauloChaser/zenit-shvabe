@@ -1,0 +1,919 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Фотоконкурс награждение</title>
+</head>
+<body>
+<header class="container header js-header">
+    <div class="container__row">
+        <div class="header__top">
+
+            <div class="header__logo">
+                <a href="/index.html">
+                    <svg class="header__logoIcon">
+                        <use href="./spritemap.svg#icon-logo"/>
+                    </svg>
+                </a>
+                <h3 class="header__logoName">ПАО &laquo;Красногорский <br>завод&nbsp;им. С.А. Зверева&raquo;</h3>
+            </div>
+            <div class="header__languages header__languages--desk">
+                <a href="" class="header__language header__language--active">Ru</a>
+                <a href="" class="header__language">En</a>
+                <a href="" class="header__language">Chn</a>
+            </div>
+            <span class="header__menuButton js-menu-button">Меню</span>
+        </div>
+    </div>
+    <div class="container__separator"></div>
+    <div class="container__row">
+        <div class="header__menu js-header-menu">
+            <nav class="header__menuNav">
+                <ul class="header__menuList">
+                    <li class="header__menuLinkItem js-menu-slide" data-container="menu-col-1">
+                        <a href="#" class="header__menuLink">О&nbsp;компании
+                            <svg class="header__menuLinkArrow">
+                                <use href="./spritemap.svg#icon-menu_arrowDown"/>
+                            </svg>
+                        </a>
+                        <ul class="header__menuSubList header__menuSubList--left header__menuSubList--wide"
+                            id="menu-col-1">
+                            <li class="header__menuSubListItem">
+                                <a href="/about-today.html" class="header__menuSubListLink">
+                                    КМЗ сегодня
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="/about-management.html" class="header__menuSubListLink">
+                                    Руководство
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="/about-history.html" class="header__menuSubListLink">
+                                    История предприятия
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem">
+                                <a href="/about-shareholders.html" class="header__menuSubListLink">
+                                    Акционерам
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem">
+                                <a href="/career.html" class="header__menuSubListLink">
+                                    Карьера
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem header__menuSubListItem--special"></li>
+                        </ul>
+                    </li>
+                    <li class="header__menuLinkItem js-menu-slide" data-container="menu-col-2">
+                        <a href="photo-contest.html" class="header__menuLink">Фотоконкурс</a>
+                    </li>
+                    <li class="header__menuLinkItem js-menu-slide" data-container="menu-col-3">
+                        <a href="#" class="header__menuLink">Интернет&nbsp;&mdash; магазин
+                            <svg class="header__menuLinkArrow">
+                                <use href="./spritemap.svg#icon-menu_arrowDown"/>
+                            </svg>
+                        </a>
+                        <ul class="header__menuSubList" id="menu-col-3">
+                            <li class="header__menuSubListItem">
+                                <a href="https://zenit-medicine.com" class="header__menuSubListLink" target="_blank">
+                                    Медицина
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="https://www.zenit.photo/" class="header__menuSubListLink" target="_blank">
+                                    Фототехника
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="https://zenit-optics.ru" class="header__menuSubListLink" target="_blank">
+                                    Прицельная и&nbsp;наблюдательная техника
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem header__menuSubListItem--special"></li>
+                        </ul>
+                    </li>
+                    <li class="header__menuLinkItem">
+                        <a href="/museum.html" class="header__menuLink">Музей</a>
+                    </li>
+                    <li class="header__menuLinkItem js-menu-slide" data-container="menu-col-4">
+                        <a href="#" class="header__menuLink">Медиа
+                            <svg class="header__menuLinkArrow">
+                                <use href="./spritemap.svg#icon-menu_arrowDown"/>
+                            </svg>
+                        </a>
+                        <ul class="header__menuSubList header__menuSubList--wide" id="menu-col-4">
+                            <li class="header__menuSubListItem">
+                                <a href="/media-news.html" class="header__menuSubListLink">
+                                    Новости
+                                </a>
+                            </li>
+
+                            <li class="header__menuSubListItem">
+                                <a href="/media-photo-video.html" class="header__menuSubListLink">
+                                    Фото и&nbsp;видео
+                                </a>
+                            </li>
+                            <li class="header__menuSubListItem header__menuSubListItem--special"></li>
+                        </ul>
+                    </li>
+                    <li class="header__menuLinkItem">
+                        <a href="/contacts.html" class="header__menuLink">Контакты</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header__menuBottom">
+                <div class="header__menuSocials">
+
+                    <a class="header__menuSocialsLink" href="https://vk.com/kmz_zenit">
+                        <svg class="header__menuSocialsIcon">
+                            <use href="./spritemap.svg#icon-headerSocial_vk"/>
+                        </svg>
+                        ВКонтакте
+                    </a>
+
+                    <a class="header__menuSocialsLink" href="https://t.me/zenitkmz">
+                        <svg class="header__menuSocialsIcon">
+                            <use href="./spritemap.svg#icon-headerSocial_tg"/>
+                        </svg>
+                        t.me/zenitkmz
+                    </a>
+
+                </div>
+
+                <div class="header__languages header__languages--tab">
+                    <a href="" class="header__language header__language--active">Ru</a>
+                    <a href="" class="header__language">En</a>
+                    <a href="" class="header__language">Chn</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container__separator"></div>
+</header>
+
+<section class="container breadcrumbs">
+    <div class="container__row">
+        <div aria-label="breadcrumb" class="breadcrumb__container">
+            <ul id="breadcrumbs" class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                    <a href="/index.html">Главная</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="#" aria-current="page"> Фотоконкурс</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="container photoContest photoContest--rewarding">
+    <div class="container__row container__row--alignCenter">
+        <div class="photoContest__heading">
+            <h1 class="photoContest__title title title--main">Фотоконкурс</h1>
+            <a href="account-personal-data.html" class="photoContest__buttonLogin button button--blackInner">Войти в
+                личный кабинет</a>
+        </div>
+    </div>
+    <div class="container__row">
+        <h2 class="photoContest__subtitle title title--small">Победители</h2>
+    </div>
+</section>
+
+<section class="container rewarding js-photo-contest-rewarding">
+    <div class="container__row">
+        <div class="rewarding__wrapper">
+            <h3 class="rewarding__title">Номинации</h3>
+            <div class="rewarding__items js-items-wrapper">
+                <div class="rewarding__item">
+                    <div class="rewarding__itemHeading " data-container="01">
+                        <div class="rewarding__itemNumber">01</div>
+                        <div class="rewarding__itemHeadingRight">
+                            <h3 class="rewarding__itemTitle">Удивительный мир природы и&nbsp;животных</h3>
+                            <div class="rewarding__itemOpen"></div>
+                        </div>
+                    </div>
+                    <div class="rewarding__itemContent js-open-photo-contest-gallery js-photo-cards" id="01">
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">1&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img1.jpg"
+                                         srcset="img/photoContestVoting-img1.jpg 1x,
+                                                    img/photoContestVoting-img1-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img1-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">2&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img2.jpg"
+                                         srcset="img/photoContestVoting-img2.jpg 1x,
+                                                    img/photoContestVoting-img2-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img2-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">3&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img4.jpg"
+                                         srcset="img/photoContestVoting-img4.jpg 1x,
+                                                    img/photoContestVoting-img4-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img4-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rewarding__item">
+                    <div class="rewarding__itemHeading" data-container="02">
+                        <div class="rewarding__itemNumber">02</div>
+                        <div class="rewarding__itemHeadingRight">
+                            <h3 class="rewarding__itemTitle">Моя страна</h3>
+                            <div class="rewarding__itemOpen"></div>
+                        </div>
+                    </div>
+                    <div class="rewarding__itemContent js-open-photo-contest-gallery js-photo-cards" id="02">
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">1&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img1.jpg"
+                                         srcset="img/photoContestVoting-img1.jpg 1x,
+                                                    img/photoContestVoting-img1-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img1-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">2&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard swiper-slide">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img2.jpg"
+                                         srcset="img/photoContestVoting-img2.jpg 1x,
+                                                    img/photoContestVoting-img2-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img2-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">3&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img4.jpg"
+                                         srcset="img/photoContestVoting-img4.jpg 1x,
+                                                    img/photoContestVoting-img4-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img4-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="rewarding__item">
+                    <div class="rewarding__itemHeading" data-container="03">
+                        <div class="rewarding__itemNumber">03</div>
+                        <div class="rewarding__itemHeadingRight">
+                            <h3 class="rewarding__itemTitle">Портрет</h3>
+                            <div class="rewarding__itemOpen"></div>
+                        </div>
+                    </div>
+                    <div class="rewarding__itemContent js-open-photo-contest-gallery js-photo-cards" id="03">
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">1&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard swiper-slide">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img1.jpg"
+                                         srcset="img/photoContestVoting-img1.jpg 1x,
+                                                    img/photoContestVoting-img1-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img1-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">2&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard swiper-slide">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img2.jpg"
+                                         srcset="img/photoContestVoting-img2.jpg 1x,
+                                                    img/photoContestVoting-img2-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img2-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">3&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img4.jpg"
+                                         srcset="img/photoContestVoting-img4.jpg 1x,
+                                                    img/photoContestVoting-img4-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img4-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="rewarding__item">
+                    <div class="rewarding__itemHeading" data-container="04">
+                        <div class="rewarding__itemNumber">04</div>
+                        <div class="rewarding__itemHeadingRight">
+                            <h3 class="rewarding__itemTitle">Моя любимая фотография на&nbsp;объективы &laquo;Зенит&raquo;</h3>
+                            <div class="rewarding__itemOpen"></div>
+                        </div>
+                    </div>
+                    <div class="rewarding__itemContent js-open-photo-contest-gallery js-photo-cards" id="04">
+                        <div class="rewarding__itemContentItem rewarding__itemContentItem--single">
+                            <div class="rewarding__itemContentCard photoCard swiper-slide">
+                                <div class="photoCard__img">
+                                    <img src="img/rewarding-img.jpg"
+                                         srcset="img/rewarding-img.jpg 1x,
+                                                    img/rewarding-img-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/rewarding-img-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="rewarding__item">
+                    <div class="rewarding__itemHeading" data-container="05">
+                        <div class="rewarding__itemNumber">05</div>
+                        <div class="rewarding__itemHeadingRight">
+                            <h3 class="rewarding__itemTitle">Страна глазами детей</h3>
+                            <div class="rewarding__itemOpen"></div>
+                        </div>
+                    </div>
+                    <div class="rewarding__itemContent js-open-photo-contest-gallery js-photo-cards" id="05">
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">1&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img5.jpg"
+                                         srcset="img/photoContestVoting-img5.jpg 1x,
+                                                    img/photoContestVoting-img5-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img5-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">2&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard swiper-slide">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img8.jpg"
+                                         srcset="img/photoContestVoting-img8.jpg 1x,
+                                                    img/photoContestVoting-img8-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img8-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rewarding__itemContentItem">
+                            <span class="rewarding__itemContentPlace">3&nbsp;место</span>
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/photoContestVoting-img7.jpg"
+                                         srcset="img/photoContestVoting-img7.jpg 1x,
+                                                    img/photoContestVoting-img7-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/photoContestVoting-img7-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="rewarding__item">
+                    <div class="rewarding__itemHeading" data-container="06">
+                        <div class="rewarding__itemNumber">06</div>
+                        <div class="rewarding__itemHeadingRight">
+                            <h3 class="rewarding__itemTitle">Приз зрительских симпатий</h3>
+                            <div class="rewarding__itemOpen"></div>
+                        </div>
+                    </div>
+                    <div class="rewarding__itemContent js-open-photo-contest-gallery js-photo-cards" id="06">
+                        <div class="rewarding__itemContentItem rewarding__itemContentItem--single">
+                            <div class="rewarding__itemContentCard photoCard">
+                                <div class="photoCard__img">
+                                    <img src="img/rewarding-img.jpg"
+                                         srcset="img/rewarding-img.jpg 1x,
+                                                    img/rewarding-img-retina.jpg 2x"
+                                         alt="alt" class="photoCard__imgItem">
+                                    <div class="photoCard__panel">
+                                        <div data-src="img/rewarding-img-retina.jpg"
+                                             class="photoCard__panelZoom">
+                                            <svg class="photoCard__panelZoomIcon">
+                                                <use href="./spritemap.svg#icon-zoom-icon"/>
+                                            </svg>
+                                        </div>
+                                        <div class="photoCard__panelLike">
+                                            <span class="photoCard__panelLikeCounter js-like-counter">23</span>
+                                            <div class="photoCard__panelLikeIcon photoCard__panelLikeIcon--active">
+                                                <svg class="photoCard__panelLikeIconItem">
+                                                    <use href="./spritemap.svg#icon-like-full"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="photoCard__info">
+                                    <h3 class="photoCard__title">Название</h3>
+                                    <span class="photoCard__author">Юрий Владимирович Абрамов</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="rewarding__info">Организаторы конкурса свяжутся с&nbsp;победителями в&nbsp;номинациях по&nbsp;указаным в&nbsp;личном
+                кабинете контактным номерам не&nbsp;позднее трех дней с&nbsp;момента опубликования результатов.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container otherMembers">
+    <div class="container__row">
+        <div class="otherMembers__wrapper">
+            <h3 class="otherMembers__title title title--small">Остальные участники</h3>
+            <div class="otherMembers__items js-open-gallery js-media-load-more-container">
+                <a href="img/media-photo-img4-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img4.jpg"
+                         srcset="img/media-photo-img4.jpg 1x,
+                                img/media-photo-img4-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img5-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img5.jpg"
+                         srcset="img/media-photo-img5.jpg 1x,
+                                img/media-photo-img5-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img6-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img6.jpg"
+                         srcset="img/media-photo-img6.jpg 1x,
+                                img/media-photo-img6-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img7-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img7.jpg"
+                         srcset="img/media-photo-img7.jpg 1x,
+                                img/media-photo-img7-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img8-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img8.jpg"
+                         srcset="img/media-photo-img8.jpg 1x,
+                                img/media-photo-img8-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img9-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img9.jpg"
+                         srcset="img/media-photo-img9.jpg 1x,
+                                img/media-photo-img9-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img10-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img10.jpg"
+                         srcset="img/media-photo-img10.jpg 1x,
+                                img/media-photo-img10-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img11-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img11.jpg"
+                         srcset="img/media-photo-img11.jpg 1x,
+                                img/media-photo-img11-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img12-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img12.jpg"
+                         srcset="img/media-photo-img12.jpg 1x,
+                                img/media-photo-img12-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img13-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img13.jpg"
+                         srcset="img/media-photo-img13.jpg 1x,
+                                img/media-photo-img13-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img14-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img14.jpg"
+                         srcset="img/media-photo-img14.jpg 1x,
+                                img/media-photo-img14-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+                <a href="img/media-photo-img15-retina.jpg" class="otherMembers__item">
+                    <img src="img/media-photo-img15.jpg"
+                         srcset="img/media-photo-img15.jpg 1x,
+                                img/media-photo-img15-retina.jpg 2x"
+                         alt="photo" class="otherMembers__itemImg">
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="container footer">
+    <div class="container__row footer__logos">
+        <div class="footer__logo">
+            <a href="https://shvabe.com">
+                <svg class="footer__logoIcon footer__logoIcon--shvabe">
+                    <use href="./spritemap.svg#icon-shwabeLogo"/>
+                </svg>
+            </a>
+        </div>
+        <div class="footer__logo">
+            <a href="/index.html">
+                <svg class="footer__logoIcon">
+                    <use href="./spritemap.svg#icon-logo"/>
+                </svg>
+            </a>
+            <h3 class="footer__logoName">ПАО &laquo;Красногорский <br>завод&nbsp;им. С.А. Зверева&raquo;</h3>
+        </div>
+    </div>
+
+    <div class="container__row footer__columns">
+        <div class="footer__column footer__column--aboutCompany">
+            <h3 class="footer__columnTitle footer__columnTitle--visibility js-footer-slide"
+                data-container="footer-col-1">О&nbsp;компании
+            </h3>
+            <ul class="footer__links" id="footer-col-1">
+                <li class="footer__link"><a href="/about-today.html">КМЗ сегодня</a></li>
+                <li class="footer__link"><a href="/about-management.html">Руководство</a></li>
+                <li class="footer__link"><a href="/about-history.html">История предприятия</a></li>
+                <li class="footer__link"><a href="/about-shareholders.html">Акционерам</a></li>
+                <li class="footer__link"><a href="/career.html">Карьера </a></li>
+            </ul>
+        </div>
+
+        <div class="footer__column footer__column--photoContest">
+            <ul class="footer__links footer__links--bold footer__links--single">
+                <li class="footer__link"><a href="#" download="">Фотоконкурс</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__column footer__column--media">
+            <h3 class="footer__columnTitle js-footer-slide"
+                data-container="footer-col-3">Медиа
+            </h3>
+            <ul class="footer__links" id="footer-col-3">
+                <li class="footer__link"><a href="/media-news.html">Новости</a></li>
+                <li class="footer__link"><a href="/media-photo-video.html">Фото и&nbsp;видео</a></li>
+            </ul>
+        </div>
+
+
+        <div class="footer__column footer__column--social">
+            <h3 class="footer__columnTitle js-footer-slide"
+                data-container="footer-col-4">Соц.Сети
+            </h3>
+            <ul class="footer__links" id="footer-col-4">
+                <li class="footer__link"><a href="https://vk.com/kmz_zenit" target="_blank">
+                    <svg class="footer__linkSocialIcon footer__linkSocialIcon--vk">
+                        <use href="./spritemap.svg#icon-footerSocial_vk"/>
+                    </svg>
+                    ВКонтакте</a>
+                </li>
+                <li class="footer__link"><a href="https://t.me/zenitkmz" target="_blank">
+                    <svg class="footer__linkSocialIcon footer__linkSocialIcon--tg">
+                        <use href="./spritemap.svg#icon-footerSocial_tg"/>
+                    </svg>
+                    t.me/zenitkmz</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer__column footer__column--mainPages">
+            <ul class="footer__links footer__links--bold">
+                <li class="footer__link"><a href="https://www.zenit.photo" target="_blank">Интернет-магазин</a></li>
+                <li class="footer__link"><a href="#">Сотрудничество</a></li>
+                <li class="footer__link"><a href="/contacts.html">Контакты</a></li>
+                <li class="footer__link"><a href="/museum.html">Музей</a></li>
+            </ul>
+        </div>
+
+        <div class="footer__column footer__column--contacts">
+            <div class="footer__links footer__links--wide">
+                <div class="footer__link footer__link--alignStart">
+                    <a href="/contacts.html">
+                        <svg class="footer__linkContactsIcon">
+                            <use href="./spritemap.svg#icon-footerContacts_Map"/>
+                        </svg>
+                        ПАО &laquo;Красногорский завод&nbsp;им. С.А. Зверева&raquo; 143403,
+                        Московская область, г.Красногорск, ул. Речная, д.8
+                    </a>
+                </div>
+
+                <div class="footer__linksContact">
+                    <div class="footer__link">
+                        <a href="tel:84955618008">
+                            <svg class="footer__linkContactsIcon">
+                                <use href="./spritemap.svg#icon-footerContacts_tel"/>
+                            </svg>
+                            +7 (495) 561-80-08
+                        </a>
+                    </div>
+                    <div class="footer__link">
+                        <a href="mailto:kmz@zenit-kmz.ru">
+                            <svg class="footer__linkContactsIcon">
+                                <use href="./spritemap.svg#icon-footerContacts_mail"/>
+                            </svg>
+                            kmz@zenit-kmz.ru
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container__row container__row--noRelative">
+        <div class="footer__copyright">
+            <a href="https://finik.org/" class="footer__copyrightText">Сайт сделан в&nbsp;<span>FINIK</span></a>
+        </div>
+    </div>
+</footer>
+
+<section class="modals js-modals">
+
+</section>
+
+
+</body>
+</html>

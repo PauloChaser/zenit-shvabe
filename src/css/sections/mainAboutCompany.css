@@ -1,0 +1,135 @@
+.mainAboutCompany {
+    width: 100%;
+    background-image: url("/img/mainAboutBG.jpg");
+    background-size: 100% 100%;
+    background-position: left top;
+    background-repeat: no-repeat;
+
+    flex-direction: column;
+
+    margin-bottom: 190px;
+    padding-top: 150px;
+    padding-bottom: 90px;
+}
+
+.mainAboutCompanyTop {
+    flex-direction: column;
+}
+
+.mainAboutCompany__heading {
+    font-size: 16px;
+    font-weight: 400;
+    color: #C0C0C0;
+
+    margin-bottom: -35px;
+}
+
+.mainAboutCompany__text {
+    text-indent: 210px;
+
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 1.35;
+    letter-spacing: -0.017em;
+    color: #202020;
+    margin: 0;
+}
+
+.mainAboutCompany__bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.mainAboutCompany__description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+    width: 42%;
+    margin-left: auto;
+    margin-right: 130px;
+}
+
+.mainAboutCompany__linkMore {
+    margin-top: 20px;
+    height: 300px;
+    width: 50%;
+    display: flex;
+}
+
+.mainAboutCompany__linkButton {
+    margin: auto;
+    transition: transform 300ms linear;
+}
+
+@media screen and (max-width: 1020px) {
+    .mainAboutCompany {
+        margin-bottom: 130px;
+        background-size: contain;
+        padding-top: 85px;
+        padding-bottom: 65px;
+    }
+
+    .mainAboutCompany__heading {
+        font-size: 14px;
+
+        margin-bottom: -20px;
+    }
+
+    .mainAboutCompany__text {
+        text-indent: 250px;
+        font-size: 24px;
+        letter-spacing: -0.01em;
+
+    }
+
+    .mainAboutCompany__bottom {
+        margin-top: 35px;
+    }
+
+    .mainAboutCompany__description {
+        font-size: 14px;
+        margin-right: 6px;
+    }
+
+    .mainAboutCompany__linkMore {
+        margin-top: -50px;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .mainAboutCompany {
+        margin-bottom: 90px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .mainAboutCompany__heading {
+        margin-bottom: 25px;
+    }
+
+    .mainAboutCompany__text {
+        text-indent: 0;
+        font-size: 20px;
+        line-height: 1.35;
+    }
+
+    .mainAboutCompany__bottom {
+        margin-top: 15px;
+    }
+
+    .mainAboutCompany__description {
+        margin-right: 0;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .mainAboutCompany__linkMore {
+        margin-top: 25px;
+        justify-self: center;
+        width: 100%;
+        height: auto;
+    }
+}

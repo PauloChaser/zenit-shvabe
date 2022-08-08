@@ -1,0 +1,222 @@
+.mainMuseum {
+    margin-top: 180px;
+    margin-bottom: 180px;
+    padding-top: 170px;
+    padding-bottom: 170px;
+    position: relative;
+}
+
+.mainMuseum::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: conic-gradient(from 180deg at 50% 50%, #000000 -0.17deg, #999A9A 22.95deg, #000000 92.32deg, #FFFFFF 168.75deg, #000000 216.92deg, #A2A2A2 289.01deg, #000000 359.83deg, #999A9A 382.95deg);
+    background-blend-mode: difference;
+    opacity: 0.08;
+    border-radius: 7px;
+}
+
+.mainMuseum__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mainMuseum__titles {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mainMuseum__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+
+    margin: 0;
+    padding: 0;
+
+    flex-basis: 40%;
+}
+
+.mainMuseum__subtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+
+    margin: 0;
+    padding: 0;
+    flex-basis: calc(49% - 5px);
+}
+
+.mainMuseum__content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mainMuseum__contentLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.mainMuseum__contentLink {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    z-index: 1;
+}
+
+.mainMuseum__contentLinkText {
+    margin: auto;
+    color: #202020;
+    transition: transform 150ms linear;
+}
+
+.mainMuseum__contentDescription {
+    margin: 0;
+    margin-top: auto;
+    padding: 0;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    max-width: 85%;
+}
+
+.mainMuseum__contentRight {
+    flex-basis: 49%;
+    max-width: 580px;
+    max-height: 460px;
+    margin-top: 60px;
+}
+
+.mainMuseum__contentImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 1020px) {
+    .mainMuseum {
+        margin-top: 140px;
+        margin-bottom: 130px;
+        padding: 90px 20px;
+    }
+
+    .mainMuseum__titles {
+        margin-bottom: 40px;
+        flex-direction: column;
+
+    }
+
+    .mainMuseum__title {
+        font-size: 36px;
+        margin-bottom: 25px;
+
+        flex-basis: auto;
+    }
+
+    .mainMuseum__subtitle {
+        font-size: 18px;
+        flex-basis: auto;
+        max-width: 60%;
+    }
+
+    .mainMuseum__content {
+        flex-direction: column-reverse;
+    }
+
+    .mainMuseum__contentLeft {
+        flex-basis: auto;
+        flex-direction: row-reverse;
+    }
+
+    .mainMuseum__contentLink {
+        justify-content: flex-end;
+        flex-basis: 30%;
+        height: auto;
+    }
+
+    .mainMuseum__contentLinkText {
+        margin: 30px 0 0;
+    }
+
+    .mainMuseum__contentDescription {
+        margin-top: 50px;
+        max-width: 65%;
+        font-size: 14px;
+    }
+
+    .mainMuseum__contentRight {
+        margin-top: 0;
+        flex-basis: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .mainMuseum {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding: 55px 0 45px 0;
+    }
+
+    .mainMuseum__titles {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 25px;
+    }
+
+    .mainMuseum__title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .mainMuseum__subtitle {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .mainMuseum__contentLeft {
+        flex-direction: column-reverse;
+    }
+
+    .mainMuseum__contentLink {
+        justify-content: center;
+        flex-basis: auto;
+    }
+
+    .mainMuseum__contentLinkText {
+        transform: none;
+        margin: 0;
+    }
+
+    .mainMuseum__contentDescription {
+        margin-top: 25px;
+        margin-bottom: 30px;
+        padding: 0 20px;
+        max-width: 100%;
+    }
+
+    .mainMuseum__contentRight {
+        flex-basis: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}

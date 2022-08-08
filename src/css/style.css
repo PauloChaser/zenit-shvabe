@@ -1,0 +1,67 @@
+@import "../../node_modules/normalize.css/normalize.css";
+@import "fonts.css";
+
+@import "blocks/container.css";
+@import "blocks/button.css";
+@import "blocks/scrollBar.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/title.css";
+@import "blocks/input.css";
+@import "blocks/checkbox.css";
+@import "blocks/arrows.css";
+@import "blocks/form.css";
+@import "blocks/overlay.css";
+@import "blocks/textarea.css";
+@import "blocks/doubleSlider.css";
+@import "blocks/photoCard.css";
+@import "blocks/inputRadio.css";
+@import "blocks/radio.css";
+@import "blocks/modals.css";
+@import "blocks/labelIcon.css";
+@import "blocks/hoverLines.css";
+
+
+
+
+@import "sections/header.css";
+@import "sections/mainBanner.css";
+@import "sections/mainAboutCompany.css";
+@import "sections/mainCatalog.css";
+@import "sections/mainServices.css";
+@import "sections/mainMuseum.css";
+@import "sections/mainMedia.css";
+@import "sections/mainHotLine.css";
+@import "sections/footer.css";
+
+@import "sections/contacts.css";
+@import "sections/contactsMap.css";
+@import "sections/contactsFeedback.css";
+
+@import "sections/photoContest.css";
+
+@import "sections/photoContestNews.css";
+@import "sections/photoContestVoting.css";
+@import "sections/personalAccount.css";
+@import "sections/popupItem.css";
+@import "sections/rewarding.css";
+@import "sections/otherMembers.css";
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #202020;
+    font-family: 'Helios', sans-serif;
+    box-sizing: border-box;
+
+    background-color: #ffffff;
+    line-height: 1;
+    --swiper-theme-color: #202020;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
